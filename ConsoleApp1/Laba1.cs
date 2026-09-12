@@ -1,22 +1,18 @@
-﻿////высокий 
-//Console.Write("Введите x: ");
-//double x = double.Parse(Console.ReadLine());
-//double K = (Math.Sqrt(Math.Pow(3+x, 6) - Math.Log
-//    (x))) / (Math.Exp(0)+Math.Asin(6*x*x));
-//Console.WriteLine($"K={K:F2}");
+////Вариант 10 Средний
 
-////базовый 
-//Console.WriteLine("Введите y: ");
+//Console.WriteLine("Введите y:");
 //double y = double.Parse(Console.ReadLine());
-//Console.WriteLine("Введите r: ");
-//double r = double.Parse
+//Console.WriteLine("Введите t:");
+//double t = double.Parse(Console.ReadLine());
+//double Z = ((2 * t) + (Math.Cos(y) * t)) / (Math.Exp(0) + 4.831);
+//Console.WriteLine($"Z={Z:F2}");
 
-//Вариант 10 
+//Вариант 10 Высокий
 
-Console.WriteLine("Введите y:");
+Console.Write("Введите y:");
 double y = double.Parse(Console.ReadLine());
-Console.WriteLine("Введите t:");
-double t = double.Parse(Console.ReadLine());
-double Z = ((2 * t) + (Math.Cos(y) * t)) / (Math.Exp(0) + 4.831);
-Console.WriteLine($"Z={Z:F2}");
+Console.Write("Введите x:");
+double x = double.Parse(Console.ReadLine());
+double U = (Math.Exp(3) + Math.Cos(x - 4)* Math.Cos(x - 4)) / (Math.Atan(x) + (5.2 * y));
+Console.WriteLine($"U={U:F2}");
 
